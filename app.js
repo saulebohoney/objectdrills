@@ -42,3 +42,11 @@ function personMaker() {
   return person;
 }
 
+//KeyDeleter
+
+function keyDeleter(obj) {
+  delete obj.foo;
+  delete obj.bar;
+  return obj;
+}
+
