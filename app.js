@@ -66,3 +66,16 @@ function enrollInSummerSchool(students) {
     return {name: student.name, status: "In Summer school", course: student.course};
   });
 }
+//FindbyID
+var scratchData = [
+  {id: 22, foo: 'bar'},
+  {id: 28, foo: 'bizz'},
+  {id: 19, foo: 'bazz'}
+];
+
+function findById(items, idNum) {
+   return items.find(function(equals) {
+     return equals.id === idNum;
+   });
+}
+
