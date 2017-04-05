@@ -60,3 +60,9 @@ function makeStudentsReport(data) {
 
   return test;
 }
+//EnrollInSummerSchool
+function enrollInSummerSchool(students) {
+  return students.map(function(student){
+    return {name: student.name, status: "In Summer school", course: student.course};
+  });
+}
