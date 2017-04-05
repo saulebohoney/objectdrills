@@ -1,5 +1,4 @@
-
-
+//creating an object
 function createMyObject() {
 	let createMyObject = {
 		foo: "bar",
@@ -15,3 +14,15 @@ function createMyObject() {
 }
 
 createMyObject();
+
+//____________________________________
+
+//Object Updater
+
+function updateObject(obj) {
+	obj.foo = "foo";
+	obj.bar = "bar";
+	obj.bizz = "bizz";
+	obj.bang = "bang";
+  return obj;
+} 
