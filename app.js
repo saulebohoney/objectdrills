@@ -50,4 +50,13 @@ function keyDeleter(obj) {
   delete obj.bar;
   return obj;
 }
+//makeStudentReport
+function makeStudentsReport(data) {
+  var test = [];
+  
+  data.forEach(function(dataElement){    
+    test.push(dataElement.name + ': ' + dataElement.grade);
+   })
 
+  return test;
+}
