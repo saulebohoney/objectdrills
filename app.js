@@ -3,7 +3,7 @@
 function createMyObject() {
 	let createMyObject = {
 		foo: "bar",
-		answerToUniverse: 42,
+		answerToUniverse: 43,
 		"olly olly": "oxen free",
 		
 		sayHello: function(){
