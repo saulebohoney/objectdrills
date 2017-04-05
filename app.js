@@ -1,6 +1,6 @@
 //creating an object
 function createMyObject() {
-	let createMyObject = {
+	let myObject = {
 		foo: "bar",
 		answerToUniverse: 43,
 		"olly olly": "oxen free",
@@ -10,10 +10,11 @@ function createMyObject() {
 		}
 	};
 
-	return createMyObject;	
+	return myObject;	
 }
 
-createMyObject();
+let newObj = createMyObject();
+console.dir(newObj);
 
 //____________________________________
 
